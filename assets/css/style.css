@@ -1,0 +1,18 @@
+body{
+    background: url('https://c8.alamy.com/comp/HNP2GF/railway-lines-converging-to-the-horizon-HNP2GF.jpg');
+    background-size: cover;
+}
+.card{
+/*     background: aliceblue; */
+}
+a{
+    color: aliceblue;
+}
+#header{
+    padding: 3vw;
+    background: #8cafb3c7;
+    color: aliceblue;
+}
+.card-header{
+    background:#8cafb359;
+}
