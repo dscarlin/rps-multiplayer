@@ -113,20 +113,3 @@ function loadTrains() {
 
 
 }
-$('#register').click(function(e){
-  e.preventDefault();
-  var userName = $('#userName').val()
-  var password = $('#password').val()
-  var userKey = userName+password
-  console.log(userKey)
-  database.set(userKey,'')
-  database.child(userKey).once('value',function(snapshot){
-    if(snapshot.hasChild(userkey))
-      alert('This combo already exists')
-    else
-      database.set(userKey,'')
-  })
-  
-})
-// $('#login').click(function)
-// database.child('')
