@@ -1,5 +1,5 @@
 body{
-    background: url('https://c8.alamy.com/comp/HNP2GF/railway-lines-converging-to-the-horizon-HNP2GF.jpg');
+    background: url('https://www.kunr.org/sites/kunr/files/201901/truckee-amtrak-2.jpg');
     background-size: cover;
 }
 .card{
@@ -9,10 +9,13 @@ a{
     color: aliceblue;
 }
 #header{
-    padding: 3vw;
-    background: #8cafb3c7;
+    padding: 1vw;
+    background: #86a9ad;
     color: aliceblue;
 }
 .card-header{
     background:#8cafb359;
+}
+h1{
+    font-size: 7vh;
 }

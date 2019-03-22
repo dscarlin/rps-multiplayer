@@ -55,7 +55,7 @@ function setNextTrainTimeAndTimeUntilDepart(firstTrainTime,frequency){
 $('#submit').click(function(event) {
   event.preventDefault();
   console.log('click')
-  if ($('#trainName').val() === "" || $('#destination').val() === "" || $('#firstTimeTime').val() === "") {
+  if ($('#trainName').val() === "" || $('#destination').val() === "" || $('#firstTimeTime').val() === "" || $('#frequency').val() === "") {
 		event.preventDefault();
 		alert("Please fill out all form fields");
 
